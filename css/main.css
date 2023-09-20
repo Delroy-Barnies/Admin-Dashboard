@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
