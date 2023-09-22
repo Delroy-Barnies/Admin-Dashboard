@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 
+    <link rel="icon" href="icons/5710522_admin_google_security_settings_icon.svg" type="image/x-icon"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Electrolize&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
@@ -22,73 +23,82 @@
         <section id="sidebar">
 
             <div class="sidebar_item">
-                <img src="icons/185093_dashboard_speed_icon.svg" width="20px">
+                <img src="icons/185093_dashboard_speed_icon.svg">
                 <h2>Dashboard .IO</h2>
             </div>
 
-            <div class="sidebar_item">
-                <img src="icons/172480_home_icon.svg" width="20px">
-                <h3>Home</h3>
+            <div class="sidebar_top_section">
+                <div class="sidebar_item">
+                    <img src="icons/172480_home_icon.svg">
+                    <h3>Home</h3>
+                </div>
+
+                <div class="sidebar_item">
+                    <img src="icons/4092564_profile_about_mobile ui_user_icon.svg">
+                    <h3>Profile</h3>
+                </div>
+
+                <div class="sidebar_item">
+                    <img src="icons/8324180_ui_essential_app_chat_comment_icon.svg">
+                    <h3>Messages</h3>
+                </div>
+
+                <div class="sidebar_item">
+                    <img src="icons/326655_history_icon.svg">
+                    <h3>History</h3>
+                </div>
+
+                <div class="sidebar_item">
+                    <img src="icons/9044309_document_tasks_icon.svg">
+                    <h3>Tasks</h3>
+                </div>
+
+                <div class="sidebar_item">
+                    <img src="icons/8673550_ic_fluent_people_community_add_icon.svg">
+                    <h3>Communities</h3>
+                </div>
             </div>
 
-            <div class="sidebar_item">
-                <img src="icons/4092564_profile_about_mobile ui_user_icon.svg" width="20px">
-                <h3>Profile</h3>
-            </div>
+            <div class="sidebar_bottom_section">
+                <div class="sidebar_item">
+                    <img src="icons/9035575_settings_outline_icon.svg">
+                    <h3>Settings</h3>
+                </div>
 
-            <div class="sidebar_item">
-                <img src="icons/8324180_ui_essential_app_chat_comment_icon.svg" width="20px">
-                <h3>Messages</h3>
-            </div>
+                <div class="sidebar_item">
+                    <img src="icons/172475_headset_support_icon (1).svg">
+                    <h3>Support</h3>
+                </div>
 
-            <div class="sidebar_item">
-                <img src="icons/326655_history_icon.svg" width="20px">
-                <h3>History</h3>
-            </div>
-
-            <div class="sidebar_item">
-                <img src="icons/9044309_document_tasks_icon.svg" width="20px">
-                <h3>Tasks</h3>
-            </div>
-
-            <div class="sidebar_item">
-                <img src="icons/8673550_ic_fluent_people_community_add_icon.svg" width="20px">
-                <h3>Communities</h3>
-            </div>
-
-            <div class="sidebar_item">
-                <img src="icons/9035575_settings_outline_icon.svg" width="20px">
-                <h3>Settings</h3>
-            </div>
-
-            <div class="sidebar_item">
-                <img src="icons/172475_headset_support_icon (1).svg" width="20px">
-                <h3>Support</h3>
-            </div>
-
-            <div class="sidebar_item">
-                <img src="icons/8201356_lock_password_padlock_privacy_ui_icon.svg" width="20px">
-                <h3>Privacy</h3>
+                <div class="sidebar_item">
+                    <img src="icons/8201356_lock_password_padlock_privacy_ui_icon.svg">
+                    <h3>Privacy</h3>
+                </div>
             </div>
 
         </section>
 
         <section id="content">
 
-            <header>
-                <div class="header_left">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
+            <div class="header_background">
+                <header>
+                    <div class="header_left">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
 
-                <div class="header_right">
-                    <div class="search_bar"><input type="text" name="search" id="search"><img
-                            src="icons/3844432_magnifier_search_zoom_icon.svg" width="20px"></div>
-                    <img src="icons/9035522_notifications_outline_icon.svg" width="30px">
-                    <h3>@AdrianRogers</h3>
-                </div>
-            </header>
+                    <div class="header_right">
+                        <div class="search_bar"><input type="text" name="search" id="search"><img
+                                src="icons/3844432_magnifier_search_zoom_icon.svg" width="20px"></div>
+                        <img class="notification_icon" src="icons/9035522_notifications_outline_icon.svg" width="30px">
+                        <div class="user_info">
+                            <img src="icons/403022_business man_male_user_avatar_profile_icon.svg">
+                            <h3>@AdrianRogers</h3>
+                        </div>
+                    </div>
+                </header>
+            </div>
 
             <div class="main_content">
 
@@ -96,7 +106,7 @@
 
                     <div class="welcome_message">
                         <h1>Welcome Captain.</h1>
-                        <h2>A. Rogers</h2>
+                        <h2>A. Rogers (@)AdrianRogers</h2>
                     </div>
 
                     <section id="projects">
@@ -183,19 +193,21 @@
 
                 <div class="main_content_right">
 
-                    <h2>Announcements</h2>
+                    <h2 class="announcement_heading">Announcements</h2>
                     <section id="announcements">
 
                         <div class="announcement">
                             <h3>Cyber Space Maintenance</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas vitae ex eget
                                 lacinia.</p>
+                            <div class="line_separator"></div>
                         </div>
 
                         <div class="announcement">
                             <h3>Happy New Year, Enjoy 2070!</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas vitae ex eget
                                 lacinia.</p>
+                            <div class="line_separator"></div>
                         </div>
 
                         <div class="announcement">
@@ -206,12 +218,13 @@
 
                     </section>
 
-                    <h2>Trending</h2>
+                    <h2 class="trend_heading">Trending</h2>
+
                     <section id="trending">
 
                         <div class="trend">
                             <div class="trend_left">
-                                <img src="icons/4043232_avatar_batman_comics_hero_icon.svg" width="40px">
+                                <img src="icons/4043232_avatar_batman_comics_hero_icon.svg">
                             </div>
                             <div class="trend_right">
                                 <h3>@yamamoto</h3>
@@ -221,7 +234,7 @@
 
                         <div class="trend">
                             <div class="trend_left">
-                                <img src="icons/4043270_avatar_joker_squad_suicide_woman_icon.svg" width="40px">
+                                <img src="icons/4043270_avatar_joker_squad_suicide_woman_icon.svg">
                             </div>
                             <div class="trend_right">
                                 <h3>@tanjiro</h3>
@@ -231,7 +244,7 @@
 
                         <div class="trend">
                             <div class="trend_left">
-                                <img src="icons/4043271_avatar_bug_insect_spider_icon.svg" width="40px">
+                                <img src="icons/4043271_avatar_bug_insect_spider_icon.svg">
                             </div>
                             <div class="trend_right">
                                 <h3>@shell</h3>
@@ -241,7 +254,7 @@
 
                         <div class="trend">
                             <div class="trend_left">
-                                <img src="icons/4043249_avatar_geisha_japanese_woman_icon.svg" width="40px">
+                                <img src="icons/4043249_avatar_geisha_japanese_woman_icon.svg">
                             </div>
                             <div class="trend_right">
                                 <h3>@mako</h3>
