@@ -32,6 +32,7 @@ body {
     justify-content: center;
 
     background-color: #ff2151;
+    height: 100vh;
 }
 
 .sidebar_item{
