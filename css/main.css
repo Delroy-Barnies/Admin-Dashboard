@@ -3,6 +3,8 @@
 
     --drop-shadow: drop-shadow(10px 10px 0px #acacac);
     --electrolize: 'Electrolize', sans-serif;
+
+    background-color: rgb(43, 42, 42);
 }
 
 *:focus {
@@ -22,8 +24,6 @@ body {
 
     display: grid;
     grid-template-columns: 300px 1fr;
-
-    background-color: rgb(43, 42, 42);
 }
 
 #sidebar{
